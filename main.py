@@ -94,11 +94,11 @@ async def on_message(message):
         await message.channel.send(shortened_element[quote_list[0]+1:quote_list[1]])
 
 
-    if message.author.id == 371022437883707392:
-        await message.channel.send('Shutup Monkey')
+    if message.author.id == USER ID HERE:
+        await message.channel.send('YOUR MESSAGE HERE')
 
-    if message.author.id == 271426173781671937:
-        await message.channel.send('Shutup Monkey')
+    if message.author.id == USER ID HERE:
+        await message.channel.send('YOUR MESSAGE HERE')
 
 
     if message.content.lower() == "$commands":
